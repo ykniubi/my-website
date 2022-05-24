@@ -1,68 +1,797 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#000000">
-    <meta name="description" content="Web site created using CloudBase Webify">
-    <title>Hello Webify！</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-                'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-                sans-serif;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-        }
-        code {
-            font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-                monospace;
-        }
-        .App {
-            text-align: center;
-        }
-
-        .App-logo {
-            height: 40vmin;
-            pointer-events: none;
-        }
-
-        @media (prefers-reduced-motion: no-preference) {
-            .App-logo {
-                animation: App-logo-spin infinite 20s linear;
-            }
-        }
-
-        .App-header {
-            background-color: #efefef;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            font-size: calc(10px + 2vmin);
-            color: black;
-        }
-
-        .App-link {
-            color: #108ee9;
-        }
-    </style>
+  <!-- Meta Tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Laralink">
+  <!-- Site Title -->
+  <title>App Landing</title>
+  <link rel="stylesheet" href="static/css/fontawesome.min.css">
+  <link rel="stylesheet" href="static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/lightgallery.min.css">
+  <link rel="stylesheet" href="static/css/slick.css">
+  <link rel="stylesheet" href="static/css/animate.css">
+  <link rel="stylesheet" href="static/css/style.css">
+  <!-- Theme Style -->
+  <link rel="stylesheet" href="static/css/theme_6.css">
 </head>
 
 <body>
-    <div id="root">
-        <div class="App">
-            <header class="App-header">
-                <img src="https://main.qcloudimg.com/raw/2f3b21706c37e8685efe5c60b26ceb24.png" class="App-logo" alt="logo">
-                <p>Welcome to Webify！</p>
-                <a class="App-link" href="https://webify.cloudbase.net/"
-                    target="_blank" rel="noopener noreferrer">webify.cloudbase.net</a>
-            </header>
-        </div>
+  <!-- Start Preloader -->
+  <div class="cs-preloader cs-accent_color cs-white_bg">
+    <div class="cs-preloader_bg cs-center cs-accent_4_bg">
+      <div class="cs-preloader_in cs-accent_15_border">
+        <img src="static/picture/log.jpg" style="border-radius: 50%" alt="Logo">
+      </div>
     </div>
-</body>
+  </div>
+  <!-- End Preloader -->
+  <!-- Start Header Section -->
+  <header class="cs-site_header cs-style1 cs-type2 cs-sticky-header cs-primary_font wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+    <div class="cs-main_header">
+      <div class="container">
+        <div class="cs-main_header_in">
+          <div class="cs-main_header_left">
+            <a class="cs-site_branding" href=""><img src="static/picture/log.jpg" style="border-radius: 50%" alt=""></a>
+            <span style="padding-left: 20px">meta agriculture</span>
+          </div>
+          <div class="cs-main_header_center">
+            <div class="cs-nav">
+              <ul class="cs-nav_list">
+                <li><a href="#home" class="cs-smoth_scroll">主页</a></li>
+                <li><a href="#about" class="cs-smoth_scroll">关于</a></li>
+                <li><a href="#review" class="cs-smoth_scroll">评价</a></li>
+                <li><a href="#screen" class="cs-smoth_scroll">产品</a></li>
+                <li><a href="#blogs" class="cs-smoth_scroll">博客</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="cs-main_header_right">
+            <div class="cs-toolbox">
+              <a href="#download" class="cs-btn cs-style6 cs-btn_md cs-rounded cs-primary_font cs-medium cs-accent_bg cs-white cs-accent_border cs-accent_10_bg_hover cs-accent_30_border_hover cs-smoth_scroll"><span class="cs-btn_text">进入元宇宙</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End Header Section -->
 
+  <!-- Start Hero -->
+  <div class="cs-hero cs-style6 cs-center" id="home">
+    <div class="container">
+      <div class="cs-hero_text wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+        <div class="cs-hero_subtitle">-追寻时代步伐-</div>
+        <h1 class="cs-hero_title">进入<br><b class="cs-accent_color">元宇宙</b> & 创建 <br><b class="cs-accent_color">田园新世界</b>.</h1>
+        <div class="cs-hero_btns">
+          <a href="#" class="cs-btn cs-style6 cs-btn_lg cs-rounded cs-primary_font cs-medium cs-accent_bg cs-white cs-accent_border cs-accent_10_bg_hover cs-accent_30_border_hover">
+            <span class="cs-btn_text">现在体验</span>
+            <span class="cs-btn_icon cs-center cs-white"><i class="fas fa-angle-double-right"></i></span>
+          </a>
+          <a href="javascript:;" class="cs-player_btn cs-style1 cs-btn_md cs-center cs-video_open cs-accent_color">
+            <span class="cs-player_btn_in cs-center cs-accent_15_bg"><i class="fas fa-play"></i></span>
+            <span class="cs-video_animaiton cs-center cs-accent_30_border cs-accent_50_color">
+              <span><span></span></span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="cs-hero_img cs-parallax wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.4s">
+      <div class="cs-to_right"><img src="static/picture/hero-img.png" alt=""></div>
+    </div>
+  </div>
+  <!-- End Hero -->
+
+  <!-- Start Service -->
+  <div>
+    <div class="cs-height_175 cs-height_lg_80"></div>
+    <div class="container">
+      <div class="cs-section_heading cs-style2 cs-size2 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+        <div class="cs-section_subtitle">What we do for you</div>
+        <h2 class="cs-section_title">我们的 <b class="cs-accent_color">优势</b>.</h2>
+      </div>
+      <div class="cs-height_65 cs-height_lg_45"></div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="cs-icon_box cs-style3 cs-color1 text-center wow fadeIn" data-wow-duration="1s" data-wow-delay="0.25s">
+            <div class="cs-icon_box_icon cs-center">
+              <svg width="112" height="112" viewbox="0 0 112 112" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M105 111.5H57.8C54.8 111.5 52.3 109.1 52.3 106.1V17.6C52.3 14.6 54.7 12.2 57.8 12.2H105C108 12.2 110.4 14.6 110.4 17.6V106C110.4 109.1 108 111.5 105 111.5ZM57.8 14C55.8 14 54.2 15.6 54.2 17.6V106C54.2 108 55.8 109.6 57.8 109.6H105C107 109.6 108.6 108 108.6 106V17.6C108.6 15.6 107 14 105 14H57.8V14Z" fill="#1C19F1"></path>
+                <path d="M96.8 32.1H65.9C64.4 32.1 63.2 30.9 63.2 29.4V27.6C63.2 26.1 64.4 24.9 65.9 24.9H96.8C98.3 24.9 99.5 26.1 99.5 27.6V29.4C99.5 30.9 98.3 32.1 96.8 32.1ZM65.9 26.7C65.4 26.7 65 27.1 65 27.6V29.4C65 29.9 65.4 30.3 65.9 30.3H96.8C97.3 30.3 97.7 29.9 97.7 29.4V27.6C97.7 27.1 97.3 26.7 96.8 26.7H65.9Z" fill="#1C19F1"></path>
+                <path d="M96.8 48.3H65.9C64.4 48.3 63.2 47.1 63.2 45.6V43.8C63.2 42.3 64.4 41.1 65.9 41.1H96.8C98.3 41.1 99.5 42.3 99.5 43.8V45.6C99.5 47.1 98.3 48.3 96.8 48.3ZM65.9 42.9C65.4 42.9 65 43.3 65 43.8V45.6C65 46.1 65.4 46.5 65.9 46.5H96.8C97.3 46.5 97.7 46.1 97.7 45.6V43.8C97.7 43.3 97.3 42.9 96.8 42.9H65.9Z" fill="#1C19F1"></path>
+                <path d="M96.8 64.6H65.9C64.4 64.6 63.2 63.4 63.2 61.9V60.1C63.2 58.6 64.4 57.4 65.9 57.4H96.8C98.3 57.4 99.5 58.6 99.5 60.1V61.9C99.5 63.4 98.3 64.6 96.8 64.6ZM65.9 59.2C65.4 59.2 65 59.6 65 60.1V61.9C65 62.4 65.4 62.8 65.9 62.8H96.8C97.3 62.8 97.7 62.4 97.7 61.9V60.1C97.7 59.6 97.3 59.2 96.8 59.2H65.9Z" fill="#1C19F1"></path>
+                <path d="M96.8 80.8H65.9C64.4 80.8 63.2 79.6 63.2 78.1V76.3C63.2 74.8 64.4 73.6 65.9 73.6H96.8C98.3 73.6 99.5 74.8 99.5 76.3V78.1C99.5 79.6 98.3 80.8 96.8 80.8ZM65.9 75.4C65.4 75.4 65 75.8 65 76.3V78.1C65 78.6 65.4 79 65.9 79H96.8C97.3 79 97.7 78.6 97.7 78.1V76.3C97.7 75.8 97.3 75.4 96.8 75.4H65.9Z" fill="#1C19F1"></path>
+                <path d="M49.6 85.3H6.9C4.4 85.3 2.4 87.3 2.4 89.8V106C2.4 108.5 4.4 110.5 6.9 110.5H49.6" fill="#02B3FD"></path>
+                <path d="M49.6 111.5H6.9C3.9 111.5 1.5 109.1 1.5 106.1V89.8C1.5 86.8 3.9 84.4 6.9 84.4H49.6C50.1 84.4 50.5 84.8 50.5 85.3C50.5 85.8 50.1 86.2 49.6 86.2H6.9C4.9 86.2 3.3 87.8 3.3 89.8V106C3.3 108 4.9 109.6 6.9 109.6H49.6C50.1 109.6 50.5 110 50.5 110.5C50.5 111.1 50.1 111.5 49.6 111.5Z" fill="#1C19F1"></path>
+                <path d="M15.1 101.6C17.0882 101.6 18.7 99.9882 18.7 98C18.7 96.0118 17.0882 94.4 15.1 94.4C13.1118 94.4 11.5 96.0118 11.5 98C11.5 99.9882 13.1118 101.6 15.1 101.6Z" fill="white"></path>
+                <path d="M15.1 102.5C12.6 102.5 10.6 100.5 10.6 98C10.6 95.5 12.6 93.5 15.1 93.5C17.6 93.5 19.6 95.5 19.6 98C19.6 100.5 17.6 102.5 15.1 102.5ZM15.1 95.3C13.6 95.3 12.4 96.5 12.4 98C12.4 99.5 13.6 100.7 15.1 100.7C16.6 100.7 17.8 99.5 17.8 98C17.8 96.5 16.6 95.3 15.1 95.3Z" fill="#1C19F1"></path>
+                <path d="M49.6 101.6H29.6C28.6 101.6 27.8 100.8 27.8 99.8V96.2C27.8 95.2 28.6 94.4 29.6 94.4H49.6" fill="white"></path>
+                <path d="M49.6 102.5H29.6C28.1 102.5 26.9 101.3 26.9 99.8V96.2C26.9 94.7 28.1 93.5 29.6 93.5H49.6C50.1 93.5 50.5 93.9 50.5 94.4C50.5 94.9 50.1 95.3 49.6 95.3H29.6C29.1 95.3 28.7 95.7 28.7 96.2V99.8C28.7 100.3 29.1 100.7 29.6 100.7H49.6C50.1 100.7 50.5 101.1 50.5 101.6C50.5 102.1 50.1 102.5 49.6 102.5Z" fill="#1C19F1"></path>
+                <path d="M49.6 60.1H6.9C4.4 60.1 2.4 62.1 2.4 64.6V80.8C2.4 83.3 4.4 85.3 6.9 85.3H49.6" fill="#02B3FD"></path>
+                <path d="M49.6 86.2H6.9C3.9 86.2 1.5 83.8 1.5 80.8V64.6C1.5 61.6 3.9 59.2 6.9 59.2H49.6C50.1 59.2 50.5 59.6 50.5 60.1C50.5 60.6 50.1 61 49.6 61H6.9C4.9 61 3.3 62.6 3.3 64.6V80.8C3.3 82.8 4.9 84.4 6.9 84.4H49.6C50.1 84.4 50.5 84.8 50.5 85.3C50.5 85.8 50.1 86.2 49.6 86.2Z" fill="#1C19F1"></path>
+                <path d="M15.1 76.3C17.0882 76.3 18.7 74.6882 18.7 72.7C18.7 70.7118 17.0882 69.1 15.1 69.1C13.1118 69.1 11.5 70.7118 11.5 72.7C11.5 74.6882 13.1118 76.3 15.1 76.3Z" fill="white"></path>
+                <path d="M15.1 77.2C12.6 77.2 10.6 75.2 10.6 72.7C10.6 70.2 12.6 68.2 15.1 68.2C17.6 68.2 19.6 70.2 19.6 72.7C19.6 75.2 17.6 77.2 15.1 77.2ZM15.1 70C13.6 70 12.4 71.2 12.4 72.7C12.4 74.2 13.6 75.4 15.1 75.4C16.6 75.4 17.8 74.2 17.8 72.7C17.8 71.2 16.6 70 15.1 70Z" fill="#1C19F1"></path>
+                <path d="M49.6 76.3H29.6C28.6 76.3 27.8 75.5 27.8 74.5V70.9C27.8 69.9 28.6 69.1 29.6 69.1H49.6" fill="white"></path>
+                <path d="M49.6 77.2H29.6C28.1 77.2 26.9 76 26.9 74.5V70.9C26.9 69.4 28.1 68.2 29.6 68.2H49.6C50.1 68.2 50.5 68.6 50.5 69.1C50.5 69.6 50.1 70 49.6 70H29.6C29.1 70 28.7 70.4 28.7 70.9V74.5C28.7 75 29.1 75.4 29.6 75.4H49.6C50.1 75.4 50.5 75.8 50.5 76.3C50.5 76.8 50.1 77.2 49.6 77.2Z" fill="#1C19F1"></path>
+                <path d="M44.1 9.5C43.6 9.5 43.2 9.1 43.2 8.6V1.4C43.2 0.9 43.6 0.5 44.1 0.5C44.6 0.5 45 0.9 45 1.4V8.6C45 9.1 44.6 9.5 44.1 9.5Z" fill="#1C19F1"></path>
+                <path d="M47.8 5.89998H40.5C40 5.89998 39.6 5.49998 39.6 4.99998C39.6 4.49998 40 4.09998 40.5 4.09998H47.8C48.3 4.09998 48.7 4.49998 48.7 4.99998C48.7 5.49998 48.3 5.89998 47.8 5.89998Z" fill="#1C19F1"></path>
+                <path d="M29.6 25.8C29.1 25.8 28.7 25.4 28.7 24.9V17.7C28.7 17.2 29.1 16.8 29.6 16.8C30.1 16.8 30.5 17.2 30.5 17.7V24.9C30.5 25.4 30.1 25.8 29.6 25.8Z" fill="#02B3FD"></path>
+                <path d="M33.2 22.2H25.9C25.4 22.2 25 21.8 25 21.3C25 20.8 25.4 20.4 25.9 20.4H33.2C33.7 20.4 34.1 20.8 34.1 21.3C34.1 21.8 33.7 22.2 33.2 22.2Z" fill="#02B3FD"></path>
+                <path d="M43.2 41.1H41.4C40.9 41.1 40.5 40.7 40.5 40.2C40.5 39.7 40.9 39.3 41.4 39.3H43.2C43.7 39.3 44.1 39.7 44.1 40.2C44.1 40.7 43.7 41.1 43.2 41.1Z" fill="#02B3FD"></path>
+                <path d="M37.8 41.1H17.8C17.3 41.1 16.9 40.7 16.9 40.2C16.9 39.7 17.3 39.3 17.8 39.3H37.8C38.3 39.3 38.7 39.7 38.7 40.2C38.7 40.7 38.3 41.1 37.8 41.1Z" fill="#02B3FD"></path>
+                <path d="M10.5 46.5H8.7C8.2 46.5 7.8 46.1 7.8 45.6C7.8 45.1 8.2 44.7 8.7 44.7H10.5C11 44.7 11.4 45.1 11.4 45.6C11.4 46.1 11 46.5 10.5 46.5Z" fill="#1C19F1"></path>
+                <path d="M34.1 46.5H14.1C13.6 46.5 13.2 46.1 13.2 45.6C13.2 45.1 13.6 44.7 14.1 44.7H34.1C34.6 44.7 35 45.1 35 45.6C35 46.1 34.6 46.5 34.1 46.5Z" fill="#1C19F1"></path>
+                <path d="M104.1 26.7C103.6 26.7 103.2 26.3 103.2 25.8V20.4C103.2 19.9 102.8 19.5 102.3 19.5H96.9C96.4 19.5 96 19.1 96 18.6C96 18.1 96.4 17.7 96.9 17.7H102.3C103.8 17.7 105 18.9 105 20.4V25.8C105 26.3 104.6 26.7 104.1 26.7Z" fill="#1C19F1"></path>
+                <path d="M85.3 101.9L82.5 103.4L79.7 101.9C77 100.4 75.3 97.6 75.3 94.6V87.9C77.4 89.7 80.4 89.7 82.5 87.9C84.6 89.7 87.6 89.7 89.7 87.9V94.6C89.7 97.6 88 100.4 85.3 101.9Z" fill="#02B3FD" stroke="#1C19F1" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M81.3 98.4C81.1 98.4 80.9 98.3 80.7 98.2L78 95.5C77.7 95.2 77.7 94.7 78 94.4C78.3 94.1 78.8 94.1 79.1 94.4L81.2 96.5L85.6 92.1C85.9 91.8 86.4 91.8 86.7 92.1C87 92.4 87 92.9 86.7 93.2L81.7 98.2C81.7 98.3 81.5 98.4 81.3 98.4Z" fill="white"></path>
+              </svg>                
+              <div class="cs-con_box-shape cs-accent_bg"></div>
+            </div>
+            <h2 class="cs-icon_box_title cs-semi_bold">虚拟“田园养鸡”场景</h2>
+            <div class="cs-icon_box_subtitle">本项目将农业体验作为元宇宙+农业的突破口，将真实农业场景如喂养、鸡场管理等场景用VR/AR、3D、实时监控及短视频、直播等多种新技术形式呈现出来，打造一种新的农业体验。</div>
+          </div>
+          <div class="cs-height_30 cs-height_lg_30"></div>
+        </div>
+        <div class="col-lg-4">
+          <div class="cs-icon_box cs-style3 cs-color1 text-center wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+            <div class="cs-icon_box_icon cs-center">
+              <svg width="108" height="105" viewbox="0 0 108 105" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M37.7 84.3L31.8 87.5L25.9 84.3C20.3 81.3 16.8 75.4 16.8 69V55.1C21.1 58.7 27.4 58.7 31.7 55.1C36 58.7 42.3 58.7 46.6 55.1V69C46.8 75.4 43.3 81.3 37.7 84.3Z" fill="#02B3FD" stroke="#1C19F1" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M32.8 76.3H27.7C27.3 76.3 26.9 75.9 26.9 75.5C26.9 75.1 27.3 74.7 27.7 74.7H32.8C33.9 74.7 34.8 73.8 34.8 72.7C34.8 71.6 33.9 70.7 32.8 70.7H30.4C28.5 70.7 26.9 69.1 26.9 67.2C26.9 65.3 28.5 63.7 30.4 63.7H34.7C35.1 63.7 35.5 64.1 35.5 64.5C35.5 64.9 35.1 65.3 34.7 65.3H30.4C29.3 65.3 28.4 66.2 28.4 67.3C28.4 68.4 29.3 69.3 30.4 69.3H32.8C34.7 69.3 36.3 70.9 36.3 72.8C36.3 74.7 34.7 76.3 32.8 76.3Z" fill="white"></path>
+                <path d="M31.6 65.3C31.2 65.3 30.8 64.9 30.8 64.5V62.1C30.8 61.7 31.2 61.3 31.6 61.3C32 61.3 32.4 61.7 32.4 62.1V64.5C32.4 65 32 65.3 31.6 65.3Z" fill="white"></path>
+                <path d="M31.6 78.7C31.2 78.7 30.8 78.3 30.8 77.9V75.5C30.8 75.1 31.2 74.7 31.6 74.7C32 74.7 32.4 75.1 32.4 75.5V77.9C32.4 78.3 32 78.7 31.6 78.7Z" fill="white"></path>
+                <path d="M18 23.3C17.5 23.3 17.1 22.9 17.1 22.4V14.8C17.1 14.3 17.5 13.9 18 13.9C18.5 13.9 18.9 14.3 18.9 14.8V22.4C19 22.8 18.6 23.3 18 23.3Z" fill="#1C19F1"></path>
+                <path d="M21.8 19.5H14.2C13.7 19.5 13.3 19.1 13.3 18.6C13.3 18.1 13.7 17.7 14.2 17.7H21.8C22.3 17.7 22.7 18.1 22.7 18.6C22.7 19.1 22.4 19.5 21.8 19.5Z" fill="#1C19F1"></path>
+                <path d="M4.79999 9.99998C4.29999 9.99998 3.89999 9.59998 3.89999 9.09998V1.49998C3.89999 0.999976 4.29999 0.599976 4.79999 0.599976C5.29999 0.599976 5.69999 0.999976 5.69999 1.49998V9.09998C5.69999 9.59998 5.29999 9.99998 4.79999 9.99998Z" fill="#1C19F1"></path>
+                <path d="M8.6 6.19999H1C0.5 6.19999 0 5.79999 0 5.29999C0 4.69999 0.5 4.29999 1 4.29999H8.6C9.1 4.29999 9.5 4.69999 9.5 5.19999C9.5 5.79999 9.1 6.19999 8.6 6.19999Z" fill="#1C19F1"></path>
+                <path d="M76.5 34.6L80.3 30.8C81.1 30 81.2 28.7 80.5 28L56.3 3.89999C55.6 3.19999 54.3 3.19999 53.5 4.09999L22.9 34.6" fill="#02B3FD"></path>
+                <path d="M76.5 35.6C76.3 35.6 76 35.5 75.8 35.3C75.4 34.9 75.4 34.3 75.8 34L79.6 30.2C79.8 30 80 29.7 80 29.4C80 29.2 80 29 79.8 28.7L55.6 4.6C55.2 4.2 54.6 4.3 54.1 4.8L23.5 35.3C23.1 35.7 22.5 35.7 22.2 35.3C21.8 34.9 21.8 34.3 22.2 34L52.8 3.4C53.4 2.8 54.1 2.5 54.9 2.5C55.7 2.5 56.5 2.7 57 3.3L81.1 27.4C82.2 28.5 82.1 30.4 80.9 31.6L77.1 35.4C76.9 35.5 76.7 35.6 76.5 35.6Z" fill="#1C19F1"></path>
+                <path d="M19.9 97.2H15.2C14.7 97.2 14.3 96.8 14.3 96.3C14.3 95.8 14.7 95.4 15.2 95.4H19.9C20.4 95.4 20.8 95.8 20.8 96.3C20.8 96.8 20.5 97.2 19.9 97.2Z" fill="#1C19F1"></path>
+                <path d="M29.4 97.2H24.7C24.2 97.2 23.8 96.8 23.8 96.3C23.8 95.8 24.2 95.4 24.7 95.4H29.4C29.9 95.4 30.3 95.8 30.3 96.3C30.3 96.8 29.9 97.2 29.4 97.2Z" fill="#1C19F1"></path>
+                <path d="M38.9 97.2H34.2C33.7 97.2 33.3 96.8 33.3 96.3C33.3 95.8 33.7 95.4 34.2 95.4H38.9C39.4 95.4 39.8 95.8 39.8 96.3C39.8 96.8 39.4 97.2 38.9 97.2Z" fill="#1C19F1"></path>
+                <path d="M48.4 97.2H43.7C43.2 97.2 42.8 96.8 42.8 96.3C42.8 95.8 43.2 95.4 43.7 95.4H48.4C48.9 95.4 49.3 95.8 49.3 96.3C49.3 96.8 48.9 97.2 48.4 97.2Z" fill="#1C19F1"></path>
+                <path d="M57.8 97.2H53.1C52.6 97.2 52.2 96.8 52.2 96.3C52.2 95.8 52.6 95.4 53.1 95.4H57.8C58.3 95.4 58.7 95.8 58.7 96.3C58.7 96.8 58.4 97.2 57.8 97.2Z" fill="#1C19F1"></path>
+                <path d="M67.3 97.2H62.6C62.1 97.2 61.7 96.8 61.7 96.3C61.7 95.8 62.1 95.4 62.6 95.4H67.3C67.8 95.4 68.2 95.8 68.2 96.3C68.2 96.8 67.8 97.2 67.3 97.2Z" fill="#1C19F1"></path>
+                <path d="M76.8 97.2H72C71.5 97.2 71.1 96.8 71.1 96.3C71.1 95.8 71.5 95.4 72 95.4H76.7C77.2 95.4 77.6 95.8 77.6 96.3C77.6 96.8 77.3 97.2 76.8 97.2Z" fill="#1C19F1"></path>
+                <path d="M86.2 97.2H81.5C81 97.2 80.6 96.8 80.6 96.3C80.6 95.8 81 95.4 81.5 95.4H86.2C86.7 95.4 87.1 95.8 87.1 96.3C87.1 96.8 86.8 97.2 86.2 97.2Z" fill="#1C19F1"></path>
+                <path d="M87.2 104.7H14.2C11.1 104.7 8.5 102.2 8.5 99V43.2C8.5 40.1 11 37.5 14.2 37.5H87.1C90.2 37.5 92.8 40 92.8 43.2V58.4C92.8 58.9 92.4 59.3 91.9 59.3C91.4 59.3 91 58.8 91 58.3V43.2C91 41.1 89.3 39.4 87.2 39.4H14.2C12.1 39.4 10.4 41.1 10.4 43.2V99.1C10.4 101.2 12.1 102.9 14.2 102.9H87.1C89.2 102.9 90.9 101.2 90.9 99.1V84.8C90.9 84.3 91.3 83.9 91.8 83.9C92.3 83.9 92.7 84.3 92.7 84.8V99C92.9 102.2 90.3 104.7 87.2 104.7Z" fill="#1C19F1"></path>
+                <path d="M95.7 79.2H69.2C68.6 79.2 68.2 78.8 68.2 78.2V65C68.2 64.4 68.6 64 69.2 64H95.6C96.2 64 96.6 64.4 96.6 65V78.2C96.7 78.7 96.2 79.2 95.7 79.2Z" fill="#02B3FD" stroke="#1C19F1" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M75.8 75.4C77.8987 75.4 79.6 73.6986 79.6 71.6C79.6 69.5013 77.8987 67.8 75.8 67.8C73.7013 67.8 72 69.5013 72 71.6C72 73.6986 73.7013 75.4 75.8 75.4Z" fill="white"></path>
+                <path d="M75.8 76.3C73.2 76.3 71.1 74.2 71.1 71.6C71.1 69 73.2 66.9 75.8 66.9C78.4 66.9 80.5 69 80.5 71.6C80.6 74.2 78.4 76.3 75.8 76.3ZM75.8 68.7C74.2 68.7 73 70 73 71.5C73 73.1 74.3 74.3 75.8 74.3C77.3 74.3 78.6 73 78.6 71.5C78.7 70 77.4 68.7 75.8 68.7Z" fill="#1C19F1"></path>
+                <path d="M86.2 54.5C85.7 54.5 85.3 54.1 85.3 53.6V46C85.3 45.5 84.9 45.1 84.4 45.1H76.8C76.3 45.1 75.9 44.7 75.9 44.2C75.9 43.7 76.3 43.3 76.8 43.3H84.4C86 43.3 87.2 44.6 87.2 46.1V53.7C87.2 54.1 86.8 54.5 86.2 54.5Z" fill="#1C19F1"></path>
+                <path d="M56.3 34.6C55.7 33.2 54.8 31.8 53.6 30.6C48.4 25.4 40 25.4 34.8 30.6C33.6 31.8 32.7 33.1 32.1 34.6" fill="white"></path>
+                <path d="M56.3 35.6C55.9 35.6 55.6 35.4 55.4 35C54.8 33.6 53.9 32.4 52.9 31.3C48.1 26.5 40.3 26.5 35.5 31.3C34.4 32.4 33.6 33.6 33 35C32.8 35.5 32.2 35.7 31.7 35.5C31.2 35.3 31 34.7 31.2 34.2C31.9 32.6 32.9 31.2 34.1 30C39.6 24.5 48.7 24.5 54.2 30C55.4 31.2 56.4 32.6 57.1 34.2C57.3 34.7 57.1 35.2 56.6 35.5C56.6 35.6 56.5 35.6 56.3 35.6Z" fill="#1C19F1"></path>
+                <path d="M67.8 35.6C67.4 35.6 67 35.3 66.9 34.9C65.9 31.8 66 28.5 67.2 25.5L58.8 17.1C55.8 18.3 52.5 18.4 49.4 17.4L35.5 31.3C35.1 31.7 34.5 31.7 34.2 31.3C33.8 30.9 33.8 30.3 34.2 30L48.5 15.7C48.8 15.4 49.1 15.4 49.5 15.5C52.5 16.6 55.7 16.4 58.6 15.1C59 14.9 59.4 15 59.7 15.3L69 24.6C69.3 24.9 69.4 25.3 69.2 25.7C68 28.4 67.8 31.5 68.7 34.4C68.9 34.9 68.6 35.4 68.1 35.6C68 35.6 67.9 35.6 67.8 35.6Z" fill="#1C19F1"></path>
+                <path d="M107.1 3.39998H105.2C104.7 3.39998 104.3 2.99998 104.3 2.49998C104.3 1.99998 104.7 1.59998 105.2 1.59998H107.1C107.6 1.59998 108 1.99998 108 2.49998C108 2.99998 107.6 3.39998 107.1 3.39998Z" fill="#1C19F1"></path>
+                <path d="M101.4 3.39998H80.6C80.1 3.39998 79.7 2.99998 79.7 2.49998C79.7 1.99998 80.1 1.59998 80.6 1.59998H101.4C101.9 1.59998 102.3 1.99998 102.3 2.49998C102.3 2.99998 101.9 3.39998 101.4 3.39998Z" fill="#1C19F1"></path>
+                <path d="M97.6 9.09999H73C72.5 9.09999 72.1 8.69999 72.1 8.19999C72.1 7.69999 72.5 7.29999 73 7.29999H97.6C98.1 7.29999 98.5 7.69999 98.5 8.19999C98.6 8.59999 98.1 9.09999 97.6 9.09999Z" fill="#1C19F1"></path>
+              </svg>                
+              <div class="cs-con_box-shape cs-accent_bg"></div>
+            </div>
+            <h2 class="cs-icon_box_title cs-semi_bold">元宇宙与农村电商结合</h2>
+            <div class="cs-icon_box_subtitle">利用简化的“数字孪生”技术反映与虚拟ID一一对应认养的鸡的全生命周期过程。平台用户还可以购买相应产品，产品安全质量溯源和透明化，极大提升消费者对产品的信任度和情感喜爱偏好。</div>
+          </div>
+          <div class="cs-height_30 cs-height_lg_30"></div>
+        </div>
+        <div class="col-lg-4">
+          <div class="cs-icon_box cs-style3 cs-color1 text-center wow fadeIn" data-wow-duration="1s" data-wow-delay="0.35s">
+            <div class="cs-icon_box_icon cs-center">
+              <svg width="108" height="108" viewbox="0 0 108 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.6 54.8C1.1 54.8 0.699997 54.4 0.699997 53.9C0.699997 24.4 24.7 0.400024 54.2 0.400024C54.7 0.400024 55.1 0.800025 55.1 1.30002C55.1 1.80002 54.7 2.20002 54.2 2.20002C25.7 2.30002 2.6 25.4 2.6 53.9C2.6 54.4 2.2 54.8 1.6 54.8Z" fill="#1C19F1"></path>
+                <path d="M59.8 2.3H58C57.5 2.3 57.1 1.9 57.1 1.4C57.1 0.9 57.5 0.5 58 0.5H59.9C60.4 0.5 60.8 0.9 60.8 1.4C60.8 1.9 60.3 2.3 59.8 2.3Z" fill="#1C19F1"></path>
+                <path d="M54.2 107.4C53.7 107.4 53.3 107 53.3 106.5C53.3 106 53.7 105.6 54.2 105.6C82.7 105.6 105.8 82.4 105.8 54C105.8 53.5 106.2 53.1 106.7 53.1C107.2 53.1 107.6 53.5 107.6 54C107.7 83.4 83.7 107.4 54.2 107.4Z" fill="#1C19F1"></path>
+                <path d="M50.4 107.4H48.5C48 107.4 47.6 107 47.6 106.5C47.6 106 48 105.6 48.5 105.6H50.4C50.9 105.6 51.3 106 51.3 106.5C51.4 107 51 107.4 50.4 107.4Z" fill="#1C19F1"></path>
+                <path d="M54.2 8.80005C29.3 8.80005 9.09999 29.0001 9.09999 53.9001C9.09999 78.8001 29.3 99 54.2 99C79.1 99 99.3 78.8001 99.3 53.9001C99.3 29.0001 79.1 8.80005 54.2 8.80005ZM54.2 82C38.6 82 26 69.4001 26 53.9001C26 38.4001 38.6 25.7001 54.2 25.7001C69.8 25.7001 82.4 38.3001 82.4 53.9001C82.4 69.5001 69.8 82 54.2 82Z" fill="#02B3FD"></path>
+                <path d="M54.2 99.9C28.8 99.9 8.2 79.3 8.2 53.9C8.2 28.5 28.8 7.90002 54.2 7.90002C79.6 7.90002 100.2 28.5 100.2 53.9C100.2 79.3 79.6 99.9 54.2 99.9ZM54.2 9.80002C29.9 9.80002 10.1 29.6 10.1 53.9C10.1 78.2 29.9 98 54.2 98C78.5 98 98.3 78.2 98.3 53.9C98.3 29.6 78.5 9.80002 54.2 9.80002ZM54.2 83C38.2 83 25.1 69.9 25.1 53.9C25.1 37.9 38.2 24.8 54.2 24.8C70.2 24.8 83.3 37.9 83.3 53.9C83.3 69.9 70.2 83 54.2 83ZM54.2 26.7C39.2 26.7 27 38.9 27 53.9C27 68.9 39.2 81.1 54.2 81.1C69.2 81.1 81.4 68.9 81.4 53.9C81.4 38.9 69.2 26.7 54.2 26.7Z" fill="#1C19F1"></path>
+                <path d="M93.6 6.00001H86.1C85.6 6.00001 85.2 5.60001 85.2 5.10001C85.2 4.60001 85.6 4.20001 86.1 4.20001H93.6C94.1 4.20001 94.5 4.60001 94.5 5.10001C94.5 5.60001 94.1 6.00001 93.6 6.00001Z" fill="#1C19F1"></path>
+                <path d="M89.9 9.80002C89.4 9.80002 89 9.40002 89 8.90002V1.30002C89 0.800025 89.4 0.400024 89.9 0.400024C90.4 0.400024 90.8 0.800025 90.8 1.30002V8.80002C90.8 9.40002 90.4 9.80002 89.9 9.80002Z" fill="#1C19F1"></path>
+                <path d="M106.8 18.2H99.3C98.8 18.2 98.4 17.8 98.4 17.3C98.4 16.8 98.8 16.4 99.3 16.4H106.8C107.3 16.4 107.7 16.8 107.7 17.3C107.7 17.8 107.3 18.2 106.8 18.2Z" fill="#1C19F1"></path>
+                <path d="M103 22C102.5 22 102.1 21.6 102.1 21.1V13.6C102.1 13.1 102.5 12.7 103 12.7C103.5 12.7 103.9 13.1 103.9 13.6V21C103.9 21.6 103.5 22 103 22Z" fill="#1C19F1"></path>
+                <path d="M54.2 82C51.1 82 48.2 81.5 45.4 80.6L44 97.8C47.3 98.6 50.7 99 54.2 99C57.7 99 61.1 98.6 64.4 97.8L63 80.6C60.2 81.5 57.3 82 54.2 82Z" fill="white"></path>
+                <path d="M54.2 99.9C50.7 99.9 47.2 99.5 43.8 98.7C43.3 98.6 43 98.2 43.1 97.7L44.5 80.6C44.5 80.3 44.7 80.1 44.9 79.9C45.1 79.7 45.4 79.7 45.7 79.8C51.2 81.6 57.2 81.6 62.7 79.8C63 79.7 63.3 79.7 63.5 79.9C63.7 80.1 63.9 80.3 63.9 80.6L65.3 97.7C65.3 98.2 65 98.6 64.6 98.7C61.2 99.5 57.7 99.9 54.2 99.9ZM45 97C51.1 98.3 57.4 98.3 63.4 97L62.1 81.8C56.9 83.3 51.4 83.3 46.2 81.8L45 97Z" fill="#1C19F1"></path>
+                <path d="M54.2 25.7001C57.3 25.7001 60.2 26.2 63 27.1L64.4 10C61.1 9.20005 57.7 8.80005 54.2 8.80005C50.7 8.80005 47.3 9.20005 44 10L45.4 27.1C48.2 26.2 51.1 25.7001 54.2 25.7001Z" fill="white"></path>
+                <path d="M63 28.1C62.9 28.1 62.8 28.1 62.7 28.1C57.2 26.3 51.2 26.3 45.7 28.1C45.4 28.2 45.1 28.1 44.9 28C44.7 27.8 44.5 27.6 44.5 27.3L43 10.1C43 9.60002 43.3 9.20002 43.7 9.10002C50.6 7.50002 57.7 7.50002 64.6 9.10002C65.1 9.20002 65.4 9.60002 65.3 10.1L63.9 27.2C63.9 27.5 63.7 27.7 63.5 27.9C63.4 28 63.2 28.1 63 28.1ZM63.5 10.7C57.4 9.40002 51.2 9.40002 45.1 10.7L46.4 25.9C48.8 25.2 51.5 24.8 54.2 24.8C56.9 24.8 59.6 25.2 62.2 25.9" fill="#1C19F1"></path>
+                <path d="M26 53.9C26 50.8 26.5 47.9 27.4 45.1L10.3 43.7C9.49999 47 9.09999 50.4 9.09999 53.9C9.09999 57.4 9.49999 60.8 10.3 64.1L27.4 62.7C26.6 59.9 26 57 26 53.9Z" fill="white"></path>
+                <path d="M10.3 65C9.9 65 9.5 64.7 9.4 64.3C8.6 60.9 8.2 57.3 8.2 53.9C8.2 50.5 8.6 46.9 9.4 43.5C9.5 43 9.9 42.8 10.4 42.8L27.5 44.2C27.8 44.2 28 44.4 28.2 44.6C28.4 44.8 28.4 45.1 28.3 45.4C27.4 48.2 27 51 27 53.9C27 56.8 27.5 59.6 28.4 62.4C28.5 62.7 28.4 63 28.3 63.2C28.1 63.4 27.9 63.6 27.6 63.6L10.3 65C10.4 65 10.4 65 10.3 65ZM11.1 44.7C10.4 47.7 10.1 50.8 10.1 53.9C10.1 57 10.4 60.1 11.1 63.1L26.3 61.8C25.6 59.2 25.2 56.5 25.2 53.8C25.2 51.1 25.6 48.4 26.3 45.8L11.1 44.7Z" fill="#1C19F1"></path>
+                <path d="M82.4 53.9C82.4 57 81.9 59.9 81 62.7L98.1 64.1C98.9 60.8 99.3 57.4 99.3 53.9C99.3 50.4 98.9 47 98.1 43.7L81 45.1C81.8 47.9 82.4 50.8 82.4 53.9Z" fill="white"></path>
+                <path d="M98.1 65C98 65 98 65 98.1 65L80.9 63.6C80.6 63.6 80.4 63.4 80.2 63.2C80 63 80 62.7 80 62.4C80.9 59.6 81.4 56.8 81.4 53.9C81.4 51 81 48.2 80 45.4C79.9 45.1 80 44.8 80.1 44.6C80.3 44.4 80.5 44.2 80.8 44.2L98 42.7C98.4 42.7 98.9 43 99 43.4C99.8 46.8 100.2 50.4 100.2 53.8C100.2 57.2 99.8 60.8 99 64.2C98.9 64.8 98.5 65 98.1 65ZM82.2 61.8L97.4 63.1C98 60.1 98.4 57 98.4 53.9C98.4 50.8 98.1 47.7 97.4 44.7L82.2 46C82.9 48.6 83.3 51.3 83.3 54C83.3 56.7 82.9 59.2 82.2 61.8Z" fill="#1C19F1"></path>
+                <path d="M51.4 66.6H40.1C38.9 66.6 37.9 65.9 37.5 64.7C37.1 63.6 37.4 62.3 38.3 61.6L47.9 53.6C48.3 53.2 48.6 52.7 48.6 52.2V48.8C48.6 47.8 47.8 46.9 46.7 46.9H44.8C43.8 46.9 42.9 47.7 42.9 48.8V52.6C42.9 54.2 41.6 55.4 40.1 55.4C38.6 55.4 37.3 54.1 37.3 52.6V48.8C37.3 44.7 40.7 41.3 44.8 41.3H46.7C50.8 41.3 54.2 44.7 54.2 48.8V52.2C54.2 54.4 53.2 56.5 51.5 58L47.9 61H51.4C53 61 54.2 62.3 54.2 63.8C54.2 65.3 52.9 66.6 51.4 66.6Z" fill="#02B3FD"></path>
+                <path d="M51.4 67.5H40.1C38.5 67.5 37.1 66.5 36.6 65C36.1 63.5 36.5 61.8 37.7 60.8L47.3 52.8C47.5 52.6 47.6 52.4 47.6 52.1V48.7C47.6 48.2 47.2 47.8 46.7 47.8H44.8C44.3 47.8 43.9 48.2 43.9 48.7V52.5C43.9 54.6 42.2 56.3 40.1 56.3C38 56.3 36.3 54.6 36.3 52.5V48.7C36.3 44 40.1 40.3 44.7 40.3H46.6C51.3 40.3 55 44.1 55 48.7V52.1C55 54.6 53.9 57 52 58.6L50.5 60H51.4C53.5 60 55.2 61.7 55.2 63.8C55.2 65.9 53.5 67.5 51.4 67.5ZM44.8 45.9H46.7C48.3 45.9 49.5 47.2 49.5 48.7V52.1C49.5 52.9 49.1 53.7 48.5 54.3L38.9 62.3C38.3 62.8 38.1 63.6 38.3 64.4C38.6 65.1 39.3 65.6 40.1 65.6H51.4C52.4 65.6 53.3 64.8 53.3 63.7C53.3 62.6 52.5 61.8 51.4 61.8H47.9C47.5 61.8 47.2 61.6 47 61.2C46.9 60.8 47 60.4 47.3 60.2L50.9 57.2C52.4 55.9 53.3 54.1 53.3 52.2V48.8C53.3 45.2 50.4 42.2 46.7 42.2H44.8C41.2 42.2 38.2 45.1 38.2 48.8V52.6C38.2 53.6 39 54.5 40.1 54.5C41.2 54.5 42 53.7 42 52.6V48.8C42 47.2 43.3 45.9 44.8 45.9Z" fill="#1C19F1"></path>
+                <path d="M68.3 41.2C66.7 41.2 65.5 42.5 65.5 44V51.5H59.9V44C59.9 42.4 58.6 41.2 57.1 41.2C55.6 41.2 54.3 42.5 54.3 44V54.3C54.3 55.9 55.6 57.1 57.1 57.1H65.5V63.7C65.5 65.3 66.8 66.5 68.3 66.5C69.8 66.5 71.1 65.2 71.1 63.7V44C71.1 42.5 69.8 41.2 68.3 41.2Z" fill="#02B3FD"></path>
+                <path d="M68.3 67.5C66.2 67.5 64.5 65.8 64.5 63.7V58.1H57C54.9 58.1 53.2 56.4 53.2 54.3V44C53.2 41.9 54.9 40.2 57 40.2C59.1 40.2 60.8 41.9 60.8 44V50.6H64.6V44C64.6 41.9 66.3 40.2 68.4 40.2C70.5 40.2 72 42 72 44V63.7C72 65.8 70.3 67.5 68.3 67.5ZM57 42.2C56 42.2 55.1 43 55.1 44.1V54.4C55.1 55.4 55.9 56.3 57 56.3H65.4C65.9 56.3 66.3 56.7 66.3 57.2V63.8C66.3 64.8 67.1 65.7 68.2 65.7C69.2 65.7 70.1 64.9 70.1 63.8V44C70.1 43 69.3 42.1 68.2 42.1C67.2 42.1 66.3 42.9 66.3 44V51.5C66.3 52 65.9 52.4 65.4 52.4H59.8C59.3 52.4 58.9 52 58.9 51.5V44C58.9 43 58.1 42.2 57 42.2Z" fill="#1C19F1"></path>
+              </svg>                
+              <div class="cs-con_box-shape cs-accent_bg"></div>
+            </div>
+            <h2 class="cs-icon_box_title cs-semi_bold">游戏化平台运营模式</h2>
+            <div class="cs-icon_box_subtitle">创建由用户共创、共享、共治的DAO社群平台。用户可通过多种途径获得基础原材料和自主设计虚拟空间的装饰物品。同时，开放平台论坛，鼓励用户在此进行“二创”。</div>
+          </div>
+          <div class="cs-height_30 cs-height_lg_30"></div>
+        </div>
+      </div>
+    </div>
+    <div class="cs-height_110 cs-height_lg_50"></div>
+  </div>
+  <!-- End Service -->
+
+  <!-- Start About -->
+  <div class="cs-shape_bg cs-style4" id="about">
+    <div class="cs-height_140 cs-height_lg_80"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="text-center wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
+            <img src="static/picture/about.png" alt="" class="cs-about_img cs-style1">
+          </div>
+          <div class="cs-height_0 cs-height_lg_50"></div>
+        </div><!-- .col -->
+        <div class="col-lg-6 offset-lg-1">
+          <div class="cs-vertical_middle">
+            <div class="cs-vertical_middle_in">
+              <div class="cs-text_box cs-style1 cs-size1 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+                <div class="cs-text_box_subtitle">About Our app</div>
+                <h2 class="cs-text_box_title">沉浸式游戏体验 <br>& <b class="cs-accent_color">可溯源的有机食品</b></h2>
+                <div class="cs-height_25 cs-height_lg_25"></div>
+                <div class="cs-text_box_text">1、平台以农业体验作为元宇宙+农业的突破口，将真实农业场景用VR/AR等多种新技术进行呈现，打造成新的一种农业体验。</div></br>
+                <div class="cs-text_box_text">2、借助元宇宙等相关技术与定制农业、订单农业、休闲农业等模式相结合形成新的商业，从而实现对农业的颠覆。</div>
+                <div class="cs-height_25 cs-height_lg_20"></div>
+                <ul class="cs-text_box_list cs-mp0 cs-primary_color">
+                  <li><i class="fas fa-check cs-accent_color"></i>AR体验</li>
+                  <li><i class="fas fa-check cs-accent_color"></i>全程溯源</li>
+                  <li><i class="fas fa-check cs-accent_color"></i>24/7 全天候服务</li>
+                </ul>
+                <div class="cs-height_35 cs-height_lg_25"></div>
+                <div class="cs-text_box_btn">
+                  <a href="#" class="cs-btn cs-style6 cs-medium cs-primary_font cs-rounded cs-accent_color cs-accent_30_border cs-accent_10_bg cs-accent_border_hover cs-accent_bg_hover cs-white_hover">
+                    <span class="cs-btn_text">立即体验</span>
+                    <span class="cs-btn_icon cs-center cs-white"><i class="fas fa-angle-double-right"></i></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- .col -->
+      </div>
+    </div>
+    <div class="cs-height_140 cs-height_lg_80"></div>
+  </div>
+  <!-- End About -->
+
+  <!-- Start Testimonial -->
+  <div id="review">
+    <div class="cs-height_135 cs-height_lg_75"></div>
+    <div class="container">
+      <div class="cs-section_heading cs-style2 cs-size2 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+        <div class="cs-section_subtitle">用户反馈</div>
+        <h2 class="cs-section_title"><b class="cs-accent_color">客户</b>怎么说.</h2>
+      </div>
+      <div class="cs-height_65 cs-height_lg_45"></div>
+    </div>
+    <div class="container">
+      <div class="row cs-row_gap_80">
+        <div class="col-lg-6">
+          <div class="cs-testimonial cs-style6 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+            <div class="cs-testimonial_icon cs-center cs-accent_color_2 cs-white_bg"><i class="fas fa-quote-left"></i></div>
+            <div class="cs-testimonial_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus</div>
+            <div class="cs-testimonial_info">
+              <div class="cs-testimonial_avatar cs-accent_border"><img src="static/picture/testimonial1.png" alt=""></div>
+              <div class="cs-testimonial_meta">
+                <h3 class="cs-testimonial_avatar_name cs-semi_bold">Adward Maya</h3>
+                <div class="cs-testimonial_avatar_designation">Web  Designer</div>
+              </div>
+            </div>
+          </div>
+          <div class="cs-height_30 cs-height_lg_30"></div>
+        </div><!-- .col -->
+        <div class="col-lg-6">
+          <div class="cs-testimonial cs-style6 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.35s">
+            <div class="cs-testimonial_icon cs-center cs-accent_color_2 cs-white_bg"><i class="fas fa-quote-left"></i></div>
+            <div class="cs-testimonial_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus</div>
+            <div class="cs-testimonial_info">
+              <div class="cs-testimonial_avatar cs-accent_border"><img src="static/picture/testimonial2.png" alt=""></div>
+              <div class="cs-testimonial_meta">
+                <h3 class="cs-testimonial_avatar_name cs-semi_bold">Jesmin Rosy</h3>
+                <div class="cs-testimonial_avatar_designation">Web  Designer</div>
+              </div>
+            </div>
+          </div>
+          <div class="cs-height_30 cs-height_lg_30"></div>
+        </div><!-- .col -->
+      </div>
+    </div>
+    <div class="cs-height_110 cs-height_lg_50"></div>
+  </div>
+  <!-- End Testimonial -->
+
+  
+  <!-- Start Image Carousel -->
+  <div class="cs-shape_bg cs-style5" id="screen">
+    <div class="cs-height_140 cs-height_lg_80"></div>
+    <div class="cs-extra_padding_img_carousel1">
+      <div class="cs-image_carousel cs-style1">
+        <div class="cs-slider cs-style1 cs-remove_overflow">
+          <div class="cs-image_carousel_left">
+            <div class="cs-vertical_middle">
+              <div class="cs-vertical_middle_in wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
+                <div class="cs-text_box cs-style1 cs-size1">
+                  <div class="cs-text_box_subtitle">check our app</div>
+                  <h2 class="cs-text_box_title">一览 <b class="cs-accent_color">meta agriculture</b></h2>
+                  <div class="cs-height_25 cs-height_lg_25"></div>
+                  <div class="cs-text_box_text">采用了蓝色和绿色为主题色，象征的科技与农业的融合，简约的设计风格符合现代人的审美。</div>
+                  <div class="cs-height_25 cs-height_lg_25"></div>
+                </div>
+                <div class="cs-slider_arrows cs-style2 cs-type2">
+                  <div class="cs-slider_arrows_in">
+                    <div class="cs-left_arrow cs-center cs-accent_color cs-accent_15_bg cs-accent_bg_hover cs-white_hover">
+                      <i class="fas fa-long-arrow-alt-left"></i>
+                    </div>
+                    <div class="cs-right_arrow cs-center cs-accent_color cs-accent_15_bg cs-accent_bg_hover cs-white_hover">
+                      <i class="fas fa-long-arrow-alt-right"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="cs-pagination cs-style1 cs-hidden"></div>
+              </div>
+            </div>
+          </div>
+          <div class="cs-image_carousel_right wow fadeIn" data-wow-duration="1s" data-wow-delay="0.35s">
+            <div class="cs-image_carousel_right_in">
+              <div class="cs-slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0" data-slides-per-view="responsive" data-xs-slides="2" data-sm-slides="2" data-md-slides="2" data-lg-slides="2" data-add-slides="3">
+                <div class="cs-slider_wrapper">
+                  <div class="cs-slide">
+                    <div class="cs-image_carousel_item">
+                      <img src="static/picture/app_screenshort1.jpg" alt="">
+                    </div>
+                  </div><!-- .cs-slide -->
+                  <div class="cs-slide">
+                    <div class="cs-image_carousel_item">
+                      <img src="static/picture/app_screenshort2.jpg" alt="">
+                    </div>
+                  </div><!-- .cs-slide -->
+                  <div class="cs-slide">
+                    <div class="cs-image_carousel_item">
+                      <img src="static/picture/app_screenshort3.jpg" alt="">
+                    </div>
+                  </div><!-- .cs-slide -->
+                  <div class="cs-slide">
+                    <div class="cs-image_carousel_item">
+                      <img src="static/picture/app_screenshort1.jpg" alt="">
+                    </div>
+                  </div><!-- .cs-slide -->
+                  <div class="cs-slide">
+                    <div class="cs-image_carousel_item">
+                      <img src="static/picture/app_screenshort2.jpg" alt="">
+                    </div>
+                  </div><!-- .cs-slide -->
+                  <div class="cs-slide">
+                    <div class="cs-image_carousel_item">
+                      <img src="static/picture/app_screenshort3.jpg" alt="">
+                    </div>
+                  </div><!-- .cs-slide -->
+                  <div class="cs-slide">
+                    <div class="cs-image_carousel_item">
+                      <img src="static/picture/app_screenshort1.jpg" alt="">
+                    </div>
+                  </div><!-- .cs-slide -->
+                  <div class="cs-slide">
+                    <div class="cs-image_carousel_item">
+                      <img src="static/picture/app_screenshort2.jpg" alt="">
+                    </div>
+                  </div><!-- .cs-slide -->
+                  <div class="cs-slide">
+                    <div class="cs-image_carousel_item">
+                      <img src="static/picture/app_screenshort3.jpg" alt="">
+                    </div>
+                  </div><!-- .cs-slide -->
+                </div>
+              </div><!-- .cs-slider_container -->
+            </div>
+          </div>
+        </div><!-- .cs-slider -->
+      </div>
+    </div>
+    <div class="cs-height_140 cs-height_lg_80"></div>
+  </div>
+  <!-- End Image Carousel -->
+
+  <!-- Start Team Member -->
+  <div id="team">
+    <div class="cs-height_135 cs-height_lg_75"></div>
+    <div class="container">
+      <div class="cs-section_heading cs-style2 cs-size2 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+        <div class="cs-section_subtitle">Our awsome team</div>
+        <h2 class="cs-section_title">联系我们的 <b class="cs-accent_color">团队</b>.</h2>
+      </div>
+      <div class="cs-height_65 cs-height_lg_45"></div>
+    </div>
+    <div class="container">
+      <div class="row cs-row_gap_50">
+        <div class="col-lg-3">
+          <div class="cs-team_member cs-style4">
+            <div class="cs-member_image_box wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+              <div class="cs-member_image_box_in cs-accent_10_bg">
+                <div class="cs-member_image" data-src="static/image/member1.jpg"></div>
+              </div>
+              <button class="cs-member_social_toggle">
+                <img src="static/picture/list.svg" alt="Check">
+                <img src="static/picture/cross-white.svg" alt="Cross">
+              </button>
+              <div class="cs-member_social cs-accent_color">
+                <a href="#"><i class="fab fa-qq"></i></a>
+                <a href="#"><i class="fab fa-weibo"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-zhihu"></i></a>
+              </div>
+            </div>
+            <div class="cs-member_info">
+              <h2 class="cs-member_name cs-semi_bold">Jonathon Doe</h2>
+              <div class="cs-member_designation">Founder & CEO</div>
+            </div>
+          </div>
+          <div class="cs-height_30 cs-height_lg_30"></div>
+        </div><!-- .col -->
+        <div class="col-lg-3">
+          <div class="cs-team_member cs-style4 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.35s">
+            <div class="cs-member_image_box">
+              <div class="cs-member_image_box_in cs-accent_10_bg">
+                <div class="cs-member_image" data-src="static/image/member2.jpg"></div>
+              </div>
+              <button class="cs-member_social_toggle">
+                <img src="static/picture/list.svg" alt="Check">
+                <img src="static/picture/cross-white.svg" alt="Cross">
+              </button>
+              <div class="cs-member_social cs-accent_color">
+                <a href="#"><i class="fab fa-qq"></i></a>
+                <a href="#"><i class="fab fa-weibo"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-zhihu"></i></a>
+              </div>
+            </div>
+            <div class="cs-member_info">
+              <h2 class="cs-member_name cs-semi_bold">John Smith</h2>
+              <div class="cs-member_designation">UI/UX Designer</div>
+            </div>
+          </div>
+          <div class="cs-height_30 cs-height_lg_30"></div>
+        </div><!-- .col -->
+        <div class="col-lg-3">
+          <div class="cs-team_member cs-style4 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+            <div class="cs-member_image_box">
+              <div class="cs-member_image_box_in cs-accent_10_bg">
+                <div class="cs-member_image" data-src="static/image/member3.jpg"></div>
+              </div>
+              <button class="cs-member_social_toggle">
+                <img src="static/picture/list.svg" alt="Check">
+                <img src="static/picture/cross-white.svg" alt="Cross">
+              </button>
+              <div class="cs-member_social cs-accent_color">
+                <a href="#"><i class="fab fa-qq"></i></a>
+                <a href="#"><i class="fab fa-weibo"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-zhihu"></i></a>
+              </div>
+            </div>
+            <div class="cs-member_info">
+              <h2 class="cs-member_name cs-semi_bold">Adward Maya</h2>
+              <div class="cs-member_designation">Web Application Developer</div>
+            </div>
+          </div>
+          <div class="cs-height_30 cs-height_lg_30"></div>
+        </div><!-- .col -->
+        <div class="col-lg-3">
+          <div class="cs-team_member cs-style4 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+            <div class="cs-member_image_box">
+              <div class="cs-member_image_box_in cs-accent_10_bg">
+                <div class="cs-member_image" data-src="static/image/member3.jpg"></div>
+              </div>
+              <button class="cs-member_social_toggle">
+                <img src="static/picture/list.svg" alt="Check">
+                <img src="static/picture/cross-white.svg" alt="Cross">
+              </button>
+              <div class="cs-member_social cs-accent_color">
+                <a href="#"><i class="fab fa-qq"></i></a>
+                <a href="#"><i class="fab fa-weibo"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-zhihu"></i></a>
+              </div>
+            </div>
+            <div class="cs-member_info">
+              <h2 class="cs-member_name cs-semi_bold">Adward Maya</h2>
+              <div class="cs-member_designation">Web Application Developer</div>
+            </div>
+          </div>
+          <div class="cs-height_30 cs-height_lg_30"></div>
+        </div><!-- .col -->
+        <div class="col-lg-3">
+          <div class="cs-team_member cs-style4 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+            <div class="cs-member_image_box">
+              <div class="cs-member_image_box_in cs-accent_10_bg">
+                <div class="cs-member_image" data-src="static/image/member3.jpg"></div>
+              </div>
+              <button class="cs-member_social_toggle">
+                <img src="static/picture/list.svg" alt="Check">
+                <img src="static/picture/cross-white.svg" alt="Cross">
+              </button>
+              <div class="cs-member_social cs-accent_color">
+                <a href="#"><i class="fab fa-qq"></i></a>
+                <a href="#"><i class="fab fa-weibo"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-zhihu"></i></a>
+              </div>
+            </div>
+            <div class="cs-member_info">
+              <h2 class="cs-member_name cs-semi_bold">Adward Maya</h2>
+              <div class="cs-member_designation">Web Application Developer</div>
+            </div>
+          </div>
+          <div class="cs-height_30 cs-height_lg_30"></div>
+        </div><!-- .col -->
+        <div class="col-lg-3">
+          <div class="cs-team_member cs-style4 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+            <div class="cs-member_image_box">
+              <div class="cs-member_image_box_in cs-accent_10_bg">
+                <div class="cs-member_image" data-src="static/image/member3.jpg"></div>
+              </div>
+              <button class="cs-member_social_toggle">
+                <img src="static/picture/list.svg" alt="Check">
+                <img src="static/picture/cross-white.svg" alt="Cross">
+              </button>
+              <div class="cs-member_social cs-accent_color">
+                <a href="#"><i class="fab fa-qq"></i></a>
+                <a href="#"><i class="fab fa-weibo"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-zhihu"></i></a>
+              </div>
+            </div>
+            <div class="cs-member_info">
+              <h2 class="cs-member_name cs-semi_bold">Adward Maya</h2>
+              <div class="cs-member_designation">Web Application Developer</div>
+            </div>
+          </div>
+          <div class="cs-height_30 cs-height_lg_30"></div>
+        </div><!-- .col -->
+        <div class="col-lg-3">
+          <div class="cs-team_member cs-style4 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+            <div class="cs-member_image_box">
+              <div class="cs-member_image_box_in cs-accent_10_bg">
+                <div class="cs-member_image" data-src="static/image/member3.jpg"></div>
+              </div>
+              <button class="cs-member_social_toggle">
+                <img src="static/picture/list.svg" alt="Check">
+                <img src="static/picture/cross-white.svg" alt="Cross">
+              </button>
+              <div class="cs-member_social cs-accent_color">
+                <a href="#"><i class="fab fa-qq"></i></a>
+                <a href="#"><i class="fab fa-weibo"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-zhihu"></i></a>
+              </div>
+            </div>
+            <div class="cs-member_info">
+              <h2 class="cs-member_name cs-semi_bold">Adward Maya</h2>
+              <div class="cs-member_designation">Web Application Developer</div>
+            </div>
+          </div>
+          <div class="cs-height_30 cs-height_lg_30"></div>
+        </div><!-- .col -->
+        <div class="col-lg-3">
+          <div class="cs-team_member cs-style4 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+            <div class="cs-member_image_box">
+              <div class="cs-member_image_box_in cs-accent_10_bg">
+                <div class="cs-member_image" data-src="static/image/member3.jpg"></div>
+              </div>
+              <button class="cs-member_social_toggle">
+                <img src="static/picture/list.svg" alt="Check">
+                <img src="static/picture/cross-white.svg" alt="Cross">
+              </button>
+              <div class="cs-member_social cs-accent_color">
+                <a href="#"><i class="fab fa-qq"></i></a>
+                <a href="#"><i class="fab fa-weibo"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-zhihu"></i></a>
+              </div>
+            </div>
+            <div class="cs-member_info">
+              <h2 class="cs-member_name cs-semi_bold">Adward Maya</h2>
+              <div class="cs-member_designation">Web Application Developer</div>
+            </div>
+          </div>
+          <div class="cs-height_30 cs-height_lg_30"></div>
+        </div><!-- .col -->
+        <div class="col-lg-3">
+          <div class="cs-team_member cs-style4 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+            <div class="cs-member_image_box">
+              <div class="cs-member_image_box_in cs-accent_10_bg">
+                <div class="cs-member_image" data-src="static/image/member3.jpg"></div>
+              </div>
+              <button class="cs-member_social_toggle">
+                <img src="static/picture/list.svg" alt="Check">
+                <img src="static/picture/cross-white.svg" alt="Cross">
+              </button>
+              <div class="cs-member_social cs-accent_color">
+                <a href="#"><i class="fab fa-qq"></i></a>
+                <a href="#"><i class="fab fa-weibo"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-zhihu"></i></a>
+              </div>
+            </div>
+            <div class="cs-member_info">
+              <h2 class="cs-member_name cs-semi_bold">Adward Maya</h2>
+              <div class="cs-member_designation">Web Application Developer</div>
+            </div>
+          </div>
+          <div class="cs-height_30 cs-height_lg_30"></div>
+        </div><!-- .col -->
+        <div class="col-lg-3">
+          <div class="cs-team_member cs-style4 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+            <div class="cs-member_image_box">
+              <div class="cs-member_image_box_in cs-accent_10_bg">
+                <div class="cs-member_image" data-src="static/image/member3.jpg"></div>
+              </div>
+              <button class="cs-member_social_toggle">
+                <img src="static/picture/list.svg" alt="Check">
+                <img src="static/picture/cross-white.svg" alt="Cross">
+              </button>
+              <div class="cs-member_social cs-accent_color">
+                <a href="#"><i class="fab fa-qq"></i></a>
+                <a href="#"><i class="fab fa-weibo"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-zhihu"></i></a>
+              </div>
+            </div>
+            <div class="cs-member_info">
+              <h2 class="cs-member_name cs-semi_bold">Adward Maya</h2>
+              <div class="cs-member_designation">Web Application Developer</div>
+            </div>
+          </div>
+          <div class="cs-height_30 cs-height_lg_30"></div>
+        </div><!-- .col -->
+        
+      </div>
+    </div>
+  </div>
+  <!-- End Team Member -->
+
+  <!-- Start CTA -->
+  <div id="download">
+    <div class="cs-height_105 cs-height_lg_45"></div>
+    <div class="cs-height_85 cs-height_lg_0"></div>
+    <div class="cs-accent_bg cs-parallax cs-section_overlay_70" style="background-color: rgb(38, 255, 38);">
+      <div class="cs-bg_parallax" data-src="static/image/cta-pattern.png">
+        <div class="cs-cta cs-style4 cs-parallax">
+          <div class="cs-cta_left text-center wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+            <div class="cs-cta_img cs-to_right"><img src="static/picture/chiken.png" alt="" style="width: 660px;"></div>
+          </div>
+          <div class="cs-cta_right wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+            <div class="cs-cta_subtitle text-uppercase cs-white">Available on iOS and Android</div>
+            <h2 class="cs-cta_title cs-semi_bold cs-white">Smart Watch Version</h2>
+            <div class="cs-cta_description cs-white_80">Downloads across the two major stores, Apple’s Store and <br>Google Play, reached nearly 26 billion worldwide. App revenue <br>reached a record of more than $16 billion.</div>
+            <div class="cs-cta_btns">
+              <a href="#" class="cs-btn cs-style4 cs-white_bg cs-primary_color cs-primary_color_hover cs-white_border">
+                <div class="cs-btn_icon"><i class="fab fa-google-play"></i></div>
+                <div class="cs-btn_right">
+                  <div class="cs-btn_subtext">Available on</div>
+                  <div class="cs-btn_text">Play store</div>
+                </div>
+              </a>
+              <a href="#" class="cs-btn cs-style4 cs-accent_bg_2 cs-accent_border_2 cs-white cs-white_hover">
+                <div class="cs-btn_icon"><i class="fab fa-apple"></i></div>
+                <div class="cs-btn_right">
+                  <div class="cs-btn_subtext">Available on</div>
+                  <div class="cs-btn_text">App Store</div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End CTA -->
+  
+  <!-- Start Blog Post -->
+  <div id="blogs">
+    <div class="cs-height_135 cs-height_lg_75"></div>
+    <div class="container">
+      <div class="cs-section_heading cs-style4 cs-size2 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+        <div class="cs-section_heading_left">
+          <div class="cs-section_subtitle">Our posts</div>
+          <h2 class="cs-section_title cs-medium">关于我们的 <b class="cs-accent_color">最新资讯</b></h2>
+        </div>
+        <div class="cs-section_heading_right">
+          <a href="blog.html" class="cs-btn cs-style3 cs-btn_lg cs-primary_font cs-accent_color cs-medium">
+            <span class="cs-btn_text">获取更多资讯</span>
+            <span class="cs-btn_icon cs-center"><i class="fas fa-arrow-right"></i></span>
+          </a>
+        </div>
+      </div>
+      <div class="cs-height_80 cs-height_lg_60"></div>
+    </div>
+    <div class="container">
+      <div class="row cs-row_gap_80">
+        <div class="col-lg-6">
+          <div class="cs-post cs-style7 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+            <a href="#" class="cs-post_thumb">
+              <div class="cs-post_thumb_in cs-bg" data-src="static/image/post1.jpg"></div>
+            </a>
+            <div class="cs-post_info" style="border-top-left-radius: 30px;">
+              <h2 class="cs-post_title"><a href="#">罗总: balabalabala</a></h2>
+              <div class="cs-post_date">2022, 5月 24</div>
+            </div>
+          </div>
+          <div class="cs-height_30 cs-height_lg_30"></div>
+        </div><!-- .col -->
+        <div class="col-lg-6">
+          <div class="cs-post cs-style7 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.35s">
+            <a href="#" class="cs-post_thumb">
+              <div class="cs-post_thumb_in cs-bg" data-src="static/image/post2.jpg"></div>
+            </a>
+            <div class="cs-post_info" style="border-top-left-radius: 30px;">
+              <h2 class="cs-post_title"><a href="#">我: 她在讲啥？</a></h2>
+              <div class="cs-post_date">2022, 5月 25</div>
+            </div>
+          </div>
+          <div class="cs-height_30 cs-height_lg_30"></div>
+        </div><!-- .col -->
+      </div>
+    </div>
+    <div class="cs-height_105 cs-height_lg_45"></div>
+  </div>
+  <!-- End Blog Post -->
+
+  <!-- Footer Section -->
+  <footer class="cs-footer cs-style2 cs-bg cs-accent_4_bg wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s" data-src="static/image/footer-bg.png">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="cs-footer_newsletter cs-style1">
+            <h2 class="cs-footer_newsletter_title"><b>订阅</b> 我们</h2>
+            <form action="#" class="cs-footer_newsletter_form">
+              <input type="email" class="cs-footer_newsletter_input" placeholder="输入你的邮箱">
+              <button class="cs-footer_newsletter_btn cs-accent_bg_2 cs-white cs-accent_bg_hover"><i class="fas fa-paper-plane"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cs-white_bg">
+      <div class="cs-copyright cs-accent_8_bg"> 
+        ...
+      </div>
+    </div>
+  </footer>
+  <!-- Footer Section -->
+
+  <!-- Start Video Popup -->
+  <div class="cs-video_popup">
+    <div class="cs-video_popup_overlay"></div>
+    <div class="cs-video_popup_content">
+      <div class="cs-video_popup_layer"></div>
+      <div class="cs-video_popup_container">
+        <div class="cs-video_popup_align">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="javascript:;"></iframe>
+          </div>
+        </div>
+        <div class="cs-video_popup_close"></div>
+      </div>
+    </div>
+  </div>
+  <!-- End Video Popup -->
+
+  <!-- Script -->
+  <script src="static/js/jquery-3.6.0.min.js"></script>
+  <script src="static/js/isotope.pkg.min.js"></script>
+  <script src="static/js/jquery.slick.min.js"></script>
+  <script src="static/js/lightgallery.min.js"></script>
+  <script src="static/js/jquery.counter.min.js"></script>
+  <script src="static/js/wow.min.js"></script>
+  <script src="static/js/main.js"></script>
+	<a href="#" style="display:none;"></a>
+</body>
 </html>
